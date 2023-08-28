@@ -1,0 +1,11 @@
+Model Information:
+* title:	Security robot
+* source:	https://sketchfab.com/3d-models/security-robot-fb51a6bcaeae4d11a73b42e7fbf2ff82
+* author:	3DWorkbench (https://sketchfab.com/3DWorkbench)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Security robot" (https://sketchfab.com/3d-models/security-robot-fb51a6bcaeae4d11a73b42e7fbf2ff82) by 3DWorkbench (https://sketchfab.com/3DWorkbench) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

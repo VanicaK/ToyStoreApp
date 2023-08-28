@@ -1,0 +1,11 @@
+Model Information:
+* title:	Toy Plane
+* source:	https://sketchfab.com/3d-models/toy-plane-8e07cd514f1148269ca715b8e726ace2
+* author:	Oscar Leif (https://sketchfab.com/OscarLeif)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Toy Plane" (https://sketchfab.com/3d-models/toy-plane-8e07cd514f1148269ca715b8e726ace2) by Oscar Leif (https://sketchfab.com/OscarLeif) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

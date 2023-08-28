@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+  <title>Toy Store App</title>
+
+  <!-- Import A-Frame and then AR.js -->
+  <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+
+  <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+
+  
+</head>
+
+<body style="margin : 0px; overflow: hidden;">
+
+  <!-- A-frame scene -->
+  <a-scene vr-mode-ui="enabled:false" embed arjs="sourceType:webcam">
+    <a-assets>
+        <a-asset-item src="C:/Users/vijay/OneDrive/Desktop/VS Projects Python/Project-188/assets/boat" id="boat"></a-asset-item>
+        <a-asset-item src="C:/Users/vijay/OneDrive/Desktop/VS Projects Python/Project-188/assets/car" id="car"></a-asset-item>
+        <a-asset-item src="C:/Users/vijay/OneDrive/Desktop/VS Projects Python/Project-188/assets/crane" id="crane"></a-asset-item>
+        <a-asset-item src="C:/Users/vijay/OneDrive/Desktop/VS Projects Python/Project-188/assets/plane" id="plane"></a-asset-item>
+        <a-asset-item src="C:/Users/vijay/OneDrive/Desktop/VS Projects Python/Project-188/assets/robot" id="robot"></a-asset-item>
+        <a-asset-item src="C:/Users/vijay/OneDrive/Desktop/VS Projects Python/Project-188/assets/train" id="train"></a-asset-item>
+    </a-assets>
+    <a-marker id="marker0" type="pattern" url="">
+      <a-entity>
+        <a-plane text="font: exo2bold; align: center; width: 12; color: #000; value:TOY CAR /n This toycar is suitable for ages 3+ /n Equipped with pullback motor"></a-plane>
+        <a-button id="buyCar" class ="btn btn-warning mr-4" color="#A30400">Buy Now!</a-button>
+        <a-button id="info" class ="btn btn-warning mr-4" color="#F0C30F">More info...</a-button>
+      </a-entity>
+      <a-entity gltf-model="#car" scale="0.2 0.2 0.2"></a-entity>
+    </a-marker>
+    <a-marker id="marker1" type="pattern"  url="" cursor="rayOrigin:mouse">
+      <a-entity>
+        <a-plane text="font: exo2bold; align: center; width: 12; color: #000; value:TOY PLANE /n This toy plane is suitable for ages 5+ /n does not actually fly"></a-plane>
+        <a-button id="buyPlane" class ="btn btn-warning mr-4" color="#A30400">Buy Now!</a-button>
+        <a-button id="info" class ="btn btn-warning mr-4" color="#F0C30F">More info...</a-button>
+      </a-entity>
+      <a-entity gltf-model="#plane" scale="0.2 0.2 0.2"></a-entity>
+    </a-marker>
+    <a-marker id="marker2" type="pattern" url="" cursor="rayOrigin:mouse">
+      <a-entity>
+        <a-plane text="font: exo2bold; align: center; width: 12; color: #000; value:TOY CRANE /n This toy crane is suitable for ages 5+ /n some assembly reuqired"></a-plane>
+        <a-button id="buyCrane" class ="btn btn-warning mr-4" color="#A30400">Buy Now!</a-button>
+        <a-button id="info" class ="btn btn-warning mr-4" color="#F0C30F">More info...</a-button>
+      </a-entity>
+      <a-entity gltf-model="#crane" scale="0.2 0.2 0.2"></a-entity>
+    </a-marker>
+    <a-marker id="marker3" type="pattern" url="" cursor="rayOrigin:mouse">
+      <a-entity>
+        <a-plane text="font: exo2bold; align: center; width: 12; color: #000; value:TOY BOAT /n This toy boat is suitable for ages 4+ /n Waterpoof!"></a-plane>
+        <a-button id="buyBoat" class ="btn btn-warning mr-4" color="#A30400">Buy Now!</a-button>
+        <a-button id="info" class ="btn btn-warning mr-4" color="#F0C30F">More info...</a-button>
+      </a-entity>
+      <a-entity gltf-model="#boat" scale="0.2 0.2 0.2"></a-entity>
+    </a-marker>
+    <a-marker id="marker4" type="pattern" url="" cursor="rayOrigin:mouse">
+      <a-entity>
+        <a-plane text="font: exo2bold; align: center; width: 12; color: #000; value:TOY ROBOT /n This toy robot is suitable for ages 5+ /n does not include batteries"></a-plane>
+        <a-button id="buyRobot" class ="btn btn-warning mr-4" color="#A30400">Buy Now!</a-button>
+        <a-button id="info" class ="btn btn-warning mr-4" color="#F0C30F">More info...</a-button>
+      </a-entity>
+      <a-entity gltf-model="#robot" scale="0.2 0.2 0.2"></a-entity>
+    </a-marker>
+    <a-marker id="marker5" type="pattern" url="" cursor="rayOrigin:mouse">
+      <a-entity>
+        <a-plane text="font: exo2bold; align: center; width: 12; color: #000; value:TOY TRAIN /n This toy train is suitable for ages 3+ /n batteries not included"></a-plane>
+        <a-button id="buyTrain" class ="btn btn-warning mr-4" color="#A30400">Buy Now!</a-button>
+        <a-button id="info" class ="btn btn-warning mr-4" color="#F0C30F">More info...</a-button>
+      </a-entity>
+      <a-entity gltf-model="#train" scale="0.2 0.2 0.2"></a-entity>
+    </a-marker>
+  </a-scene>
+ 
+
+ 
+</body>
+
+</html>
